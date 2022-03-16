@@ -1,14 +1,52 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "User": [
+    {
+      "username": "thanhnam180920",
+      "password": "123456789",
+      "firstname": "thanh",
+      "lastname": "name",
+      "email": "thanhnam180920@gmail.com"
+    },
+    {
+      "username": "thanhnam",
+      "password": "123456789",
+      "firstname": "thanh",
+      "lastname": "name",
+      "email": "thanhnam180920@gmail.com"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "Game": [
+    {
+      "id": 1,
+      "name": "flappy bird"
+    },
+    {
+      "id": 2,
+      "name": "snake"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "Score": [
+    {
+      "game": {
+        "id": 1,
+        "name": "flappy bird"
+      },
+      "user": {
+        "username": "thanhnam180920",
+        "password": "123456789"
+      },
+      "score": 100
+    },
+    {
+      "game": {
+        "id": 2,
+        "name": "snake"
+      },
+      "user": {
+        "username": "thanhnam180920",
+        "password": "123456789"
+      },
+      "score": 200
+    }
+  ]
 }
